@@ -98,8 +98,8 @@ public class ChipsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         }
     }
     
-    public ChipsInputEditText getChipsInputEditText() {
-        return mEditText;
+    public void clearChipsInputEditText() {
+        mEditText.clear();
     } 
 
     @Override
