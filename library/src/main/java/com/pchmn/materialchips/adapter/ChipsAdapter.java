@@ -97,6 +97,10 @@ public class ChipsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
             handleClickOnEditText(itemViewHolder.chipView, position);
         }
     }
+    
+    public ChipsInputEditText getChipsInputEditText() {
+        return mEditText;
+    } 
 
     @Override
     public int getItemCount() {
