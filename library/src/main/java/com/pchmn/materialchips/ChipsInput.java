@@ -266,7 +266,7 @@ public class ChipsInput extends ScrollViewMaxHeight {
         return mChipsAdapter.getChipList();
     }
 
-    public void clearTextInAdaptor {
+    public void clearTextInAdaptor() {
         mChipsAdapter.clearChipsInputEditText();
     }
     
